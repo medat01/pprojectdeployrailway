@@ -3,6 +3,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { API_URL } from "./config";
 
 function App() {
   const [users, setUsers] = useState([]);
